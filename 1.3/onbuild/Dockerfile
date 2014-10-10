@@ -6,3 +6,4 @@ WORKDIR /go/src/app
 
 ONBUILD COPY . /go/src/app
 ONBUILD RUN gpm install
+ONBUILD RUN go build
