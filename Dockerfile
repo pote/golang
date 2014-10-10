@@ -21,4 +21,4 @@ ENV GOPATH /go
 ENV PATH /go/bin:$PATH
 WORKDIR /go
 
-COPY go-wrapper /usr/local/bin/
+COPY gpm /usr/local/bin/
